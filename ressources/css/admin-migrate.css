@@ -1,0 +1,18 @@
+tr{	
+	-webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+tr.ajaxing {
+	background-color:#6CA1D7;
+}
+span.result{
+	margin-left:10px;
+}
+span.good {
+	color:#89D76A;
+}
+span.bad {
+	color:#C45858;
+}
