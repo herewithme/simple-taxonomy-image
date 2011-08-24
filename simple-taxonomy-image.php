@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simple taxonomy image
-Version: 1.0
+Version: 1.1
 Plugin URI: http://www.beapi.fr
 Description: Add possibility to add image on term taxonomy
 Author: Be API
