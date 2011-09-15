@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simple taxonomy image
-Version: 1.1
+Version: 1.0.1
 Plugin URI: http://www.beapi.fr
 Description: Add possibility to add image on term taxonomy
 Author: Be API
@@ -16,7 +16,7 @@ global $wpdb;
 $wpdb->tables[] 		= 'term_taxo_meta';
 $wpdb->term_taxometa 	= $wpdb->prefix . 'term_taxo_meta';
 
-define( 'STI_VERSION', '1.0' );
+define( 'STI_VERSION', '1.0.1' );
 define( 'STI_FOLDER', 'simple-taxonomy-image' );
 define( 'STI_OPTIONS_NAME', 'simple-taxonomy-image' ); // Option name for save settings
 define( 'STI_URL', plugins_url('', __FILE__) );
